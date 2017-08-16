@@ -3,7 +3,7 @@ from googlemaps import Client
 from datetime import datetime
 
 
-api_key = 'AIzaSyCq4EDHQYvi8uuEdavmZuKxKTTb0yGhywk'
+api_key = ''
 gmaps = Client(api_key)
 dir(gmaps)
 whitehouse = '1600 Pennsylvania Avenue, Washington, DC'
