@@ -42,5 +42,5 @@ embassies = [[38.917228,-77.0522365],
 # which embassy is closest to the White House in meters? how far? 
 # what is its address? 
 # if I wanted to hold a morning meeting there, which cafe would you suggest?
-# if I wanted to hold an evening meeting there, which bar would you suggest? 
+# if I wanted to hold an evening meeting there, which bar would you suggest?
 
