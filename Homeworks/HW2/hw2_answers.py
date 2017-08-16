@@ -14,7 +14,6 @@ if sys.version[0] == '2':
 web_address='https://petitions.whitehouse.gov/petitions'
 web_page = urllib2.urlopen(web_address)
 soup = BeautifulSoup(web_page.read())
-soup.prettify()
 
 #Landing page
 petitions0=[]
@@ -33,8 +32,6 @@ new_petitions0=petitions0[::2]
 web_address='https://petitions.whitehouse.gov/petitions?page=1'
 web_page = urllib2.urlopen(web_address)
 soup = BeautifulSoup(web_page.read())
-soup.prettify()
-
 petitions1=[]
 for petition in range(14,54):
     site=soup.find_all('a')[petition]
@@ -47,7 +44,6 @@ new_petitions1=petitions1[::2]
 web_address='https://petitions.whitehouse.gov/petitions?page=2'
 web_page = urllib2.urlopen(web_address)
 soup = BeautifulSoup(web_page.read())
-soup.prettify()
 petitions2=[]
 for petition in range(14,22):
     site=soup.find_all('a')[petition]
